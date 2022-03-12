@@ -1,0 +1,115 @@
+.bck{
+    background-image:url('../img/formPhoto.jpg');
+    background-size:cover;
+    height:100%;
+    width:100%;
+
+  }
+  .body{
+    height:100%;
+  }
+  .frameReg{
+    border:1px solid red;
+  }
+  .errorReportMail{
+    display:none;
+  }
+  .errorReportPassword{
+    display:none;
+  }
+  .errorReportFName{
+    display:none;
+  }
+  .errorReportLName{
+    display:none;
+  }
+  .errorReportDate{
+    display:none;
+  }
+  #coverShop{
+    background-image:url('../img/shopPhoto.jpg');
+    height:600px;
+  }
+  #tekst{
+    background-color:rgba(0,0,0,0.7);
+    width:25%;
+    position:relative;
+    margin:0px auto;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    top:30%;
+    text-align:center;
+  }
+  #tekst h2{
+    color:white;
+    font-size:35px;
+  }
+  #tekst p{
+    color:white;
+    font-size:19px;
+  }
+  #filterColumn{
+    display:flex;
+    justify-content:center;
+    padding-top:20px;
+  }
+  #leftColumn{
+    width:20%;
+  }
+  #leftColumn ul{
+    width:100%;
+  }
+  .price{
+    text-align:center;
+  }
+  .productNamealign{
+    text-align:center;
+  }
+  #filterResult{
+    width:100%;
+    text-align:center;
+  }
+  .list-group>li{
+    list-style:none;
+  }
+.textFilter{
+  color:white;
+}
+.autor-slika{
+	background-image:url("../imgDatabase/autor1.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position: center center;
+	width:30%;
+	height:500px;
+	margin:0px auto;
+	border:2px solid #ffd700;
+	border-radius:10px;
+}
+.autor img{
+	width:100%;
+	margin:0px auto;
+}
+.autor-paragraf{
+	width:50%;
+	text-align:center;
+	margin:0px auto;
+}
+  /*.brandFormatting
+  {
+    background-color:green;
+  }*/
+  /*.brandFormatting li{
+    list-style-type:none;
+  }*/
+  /*#filteringProducts{
+    width:30%;
+  }*/
+
+  /*.card{
+    width:40%;
+  }*/
+  /*.noDisplay{
+    display:none;
+  }*/
